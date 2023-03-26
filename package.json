@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://0407chan.github.io/baedal-login",
+  "homepage": "https://0407chan.github.io/baedal-login",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
