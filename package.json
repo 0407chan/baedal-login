@@ -1,0 +1,28 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "http://0407chan.github.io/baedal-login",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "pnpm build",
+    "gh-deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite-plugin-checker": "^0.5.6",
+    "vite-tsconfig-paths": "^4.0.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "gh-pages": "^5.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
